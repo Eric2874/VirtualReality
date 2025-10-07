@@ -1,37 +1,134 @@
-<html>
++<html>
   <head>
     <script src="https://aframe.io/releases/1.7.0/aframe.min.js"></script>
   </head>
   <body>
     <a-scene>
-      <a-entity class="plain_wall" position="0 0 0" rotation="0 0 0">
+  <a-entity class="house">
+    <!-- front wall -->
+      <a-entity class="plain_wall" position="-0.2 0 0" rotation="0 0 0">
         <a-entity class="plank" position="2 0 0">
-          <a-box position="0 0.5 0" width="1" height="1" depth="0.1" src=""></a-box>
-          <a-box position="0 1.5 0" width="1" height="1" depth="0.1" src=""></a-box>
-          <a-box position="0 2.5 0" width="1" height="1" depth="0.1" src=""></a-box>
+          <a-box src="Images/HouseTexture.jpg" position="0 0.5 0" width="1" height="1" depth="0.1" src=""></a-box>
+          <a-box src="Images/HouseTexture.jpg" position="0 1.5 0" width="1" height="1" depth="0.1" src=""></a-box>
+          <a-box src="Images/HouseTexture.jpg" position="0 2.5 0" width="1" height="1" depth="0.1" src=""></a-box>
         </a-entity>
         <a-entity class="plank" position="1 0 0">
-          <a-box position="0 0.5 0" width="1" height="1" depth="0.1" src=""></a-box>
-          <a-box position="0 1.5 0" width="1" height="1" depth="0.1" src=""></a-box>
-          <a-box position="0 2.5 0" width="1" height="1" depth="0.1" src=""></a-box>
+          <a-box src="Images/HouseTexture.jpg" position="0 0.5 0" width="1" height="1" depth="0.1" src=""></a-box>
+          <a-box src="Images/HouseTexture.jpg"position="0 1.5 0" width="1" height="1" depth="0.1" src=""></a-box>
+          <a-box src="Images/HouseTexture.jpg"position="0 2.5 0" width="1" height="1" depth="0.1" src=""></a-box>
         </a-entity>
         <a-entity class="plank" position="0 0 0">
-          <a-box position="0 0.5 0" width="1" height="1" depth="0.1" src=""></a-box>
-          <a-box position="0 1.5 0" width="1" height="1" depth="0.1" src=""></a-box>
-          <a-box position="0 2.5 0" width="1" height="1" depth="0.1" src=""></a-box>
+          <a-box src="Images/HouseTexture.jpg"position="0 2.5 0" width="1" height="1" depth="0.1" src=""></a-box>
         </a-entity>
         <a-entity class="plank" position="-1 0 0">
-          <a-box position="0 0.5 0" width="1" height="1" depth="0.1" src=""></a-box>
-          <a-box position="0 1.5 0" width="1" height="1" depth="0.1" src=""></a-box>
-          <a-box position="0 2.5 0" width="1" height="1" depth="0.1" src=""></a-box>
+          <a-box src="Images/HouseTexture.jpg"position="0 0.5 0" width="1" height="1" depth="0.1" src=""></a-box>
+          <a-box src="Images/HouseTexture.jpg"position="0 1.5 0" width="1" height="1" depth="0.1" src=""></a-box>
+          <a-box src="Images/HouseTexture.jpg"position="0 2.5 0" width="1" height="1" depth="0.1" src=""></a-box>
         </a-entity>
         <a-entity class="plank" position="-2 0 0">
-          <a-box position="0 0.5 0" width="1" height="1" depth="0.1" src=""></a-box>
-          <a-box position="0 1.5 0" width="1" height="1" depth="0.1" src=""></a-box>
-          <a-box position="0 2.5 0" width="1" height="1" depth="0.1" src=""></a-box>
+          <a-box src="Images/HouseTexture.jpg"position="0 0.5 0" width="1" height="1" depth="0.1" src=""></a-box>
+          <a-box src="Images/HouseTexture.jpg"position="0 1.5 0" width="1" height="1" depth="0.1" src=""></a-box>
+          <a-box src="Images/HouseTexture.jpg"position="0 2.5 0" width="1" height="1" depth="0.1" src=""></a-box>
         </a-entity>
       </a-entity>
-      
+    <!-- Right wall   -->
+      <a-entity class="plain_wall" position="2.3 0 -2.5" rotation="0 90 0">
+        <a-entity class="plank" position="2 0 0">
+          <a-box src="Images/HouseTexture.jpg"position="0 0.5 0" width="1" height="1" depth="0.1" src=""></a-box>
+          <a-box src="Images/HouseTexture.jpg"position="0 1.5 0" width="1" height="1" depth="0.1" src=""></a-box>
+          <a-box src="Images/HouseTexture.jpg"position="0 2.5 0" width="1" height="1" depth="0.1" src=""></a-box>
+        </a-entity>
+        <a-entity class="plank" position="1 0 0">
+          <a-box src="Images/HouseTexture.jpg"position="0 0.5 0" width="1" height="1" depth="0.1" src=""></a-box>
+          <a-box opacity="0.3" position="0 1.5 0" width="1" height="1" depth="0.1" color="blue" src=""></a-box>
+          <a-box src="Images/HouseTexture.jpg"position="0 2.5 0" width="1" height="1" depth="0.1" src=""></a-box>
+        </a-entity>
+        <a-entity class="plank" position="0 0 0">
+          <a-box src="Images/HouseTexture.jpg"position="0 0.5 0" width="1" height="1" depth="0.1" src=""></a-box>
+          <a-box opacity="0.3" position="0 1.5 0" width="1" height="1" depth="0.1" color="blue" src=""></a-box>
+          <a-box src="Images/HouseTexture.jpg"position="0 2.5 0" width="1" height="1" depth="0.1" src=""></a-box>
+        </a-entity>
+        <a-entity class="plank" position="-1 0 0">
+          <a-box src="Images/HouseTexture.jpg"position="0 0.5 0" width="1" height="1" depth="0.1" src=""></a-box>
+          <a-box opacity="0.3" position="0 1.5 0" width="1" height="1" depth="0.1" color="blue" src=""></a-box>
+          <a-box src="Images/HouseTexture.jpg"position="0 2.5 0" width="1" height="1" depth="0.1" src=""></a-box>
+        </a-entity>
+        <a-entity class="plank" position="-2 0 0">
+          <a-box src="Images/HouseTexture.jpg"position="0 0.5 0" width="1" height="1" depth="0.1" src=""></a-box>
+          <a-box src="Images/HouseTexture.jpg"position="0 1.5 0" width="1" height="1" depth="0.1" src=""></a-box>
+          <a-box src="Images/HouseTexture.jpg"position="0 2.5 0" width="1" height="1" depth="0.1" src=""></a-box>
+        </a-entity>
+      </a-entity>
+    <!-- Left wall -->
+      <a-entity class="plain_wall" position="-2.7 0 -2.5" rotation="0 90 0">
+        <a-entity class="plank" position="2 0 0">
+          <a-box src="Images/HouseTexture.jpg"position="0 0.5 0" width="1" height="1" depth="0.1" src=""></a-box>
+          <a-box src="Images/HouseTexture.jpg"position="0 1.5 0" width="1" height="1" depth="0.1" src=""></a-box>
+          <a-box src="Images/HouseTexture.jpg"position="0 2.5 0" width="1" height="1" depth="0.1" src=""></a-box>
+        </a-entity>
+        <a-entity class="plank" position="1 0 0">
+          <a-box src="Images/HouseTexture.jpg"position="0 0.5 0" width="1" height="1" depth="0.1" src=""></a-box>
+          <a-box opacity="0.2" position="0 1.5 0" width="1" height="1" depth="0.1" color="blue" src=""></a-box>
+          <a-box src="Images/HouseTexture.jpg"position="0 2.5 0" width="1" height="1" depth="0.1" src=""></a-box>
+        </a-entity>
+        <a-entity class="plank" position="0 0 0">
+          <a-box src="Images/HouseTexture.jpg"position="0 0.5 0" width="1" height="1" depth="0.1" src=""></a-box>
+          <a-box opacity="0.2" position="0 1.5 0" width="1" height="1" depth="0.1" color="blue" src=""></a-box>
+          <a-box src="Images/HouseTexture.jpg"position="0 2.5 0" width="1" height="1" depth="0.1" src=""></a-box>
+        </a-entity>
+        <a-entity class="plank" position="-1 0 0">
+          <a-box src="Images/HouseTexture.jpg"position="0 0.5 0" width="1" height="1" depth="0.1" src=""></a-box>
+          <a-box opacity="0.2" position="0 1.5 0" width="1" height="1" depth="0.1" color="blue" src=""></a-box>
+          <a-box src="Images/HouseTexture.jpg"position="0 2.5 0" width="1" height="1" depth="0.1" src=""></a-box>
+        </a-entity>
+        <a-entity class="plank" position="-2 0 0">
+          <a-box src="Images/HouseTexture.jpg"position="0 0.5 0" width="1" height="1" depth="0.1" src=""></a-box>
+          <a-box src="Images/HouseTexture.jpg"position="0 1.5 0" width="1" height="1" depth="0.1" src=""></a-box>
+          <a-box src="Images/HouseTexture.jpg"position="0 2.5 0" width="1" height="1" depth="0.1" src=""></a-box>
+        </a-entity>
+      </a-entity>
+    <!-- back wall -->
+      <a-entity class="plain_wall" position="-0.2 0 -5" rotation="0 0 0">
+        <a-entity class="plank" position="2 0 0">
+          <a-box src="Images/HouseTexture.jpg" position="0 0.5 0" width="1" height="1" depth="0.1" src=""></a-box>
+          <a-box src="Images/HouseTexture.jpg" position="0 1.5 0" width="1" height="1" depth="0.1" src=""></a-box>
+          <a-box src="Images/HouseTexture.jpg" position="0 2.5 0" width="1" height="1" depth="0.1" src=""></a-box>
+        </a-entity>
+        <a-entity class="plank" position="1 0 0">
+          <a-box src="Images/HouseTexture.jpg" position="0 0.5 0" width="1" height="1" depth="0.1" src=""></a-box>
+          <a-box src="Images/HouseTexture.jpg"position="0 1.5 0" width="1" height="1" depth="0.1" src=""></a-box>
+          <a-box src="Images/HouseTexture.jpg"position="0 2.5 0" width="1" height="1" depth="0.1" src=""></a-box>
+        </a-entity>
+        <a-entity class="plank" position="0 0 0">
+          <a-box src="Images/HouseTexture.jpg"position="0 2.5 0" width="1" height="1" depth="0.1" src=""></a-box>
+        </a-entity>
+        <a-entity class="plank" position="-1 0 0">
+          <a-box src="Images/HouseTexture.jpg"position="0 0.5 0" width="1" height="1" depth="0.1" src=""></a-box>
+          <a-box src="Images/HouseTexture.jpg"position="0 1.5 0" width="1" height="1" depth="0.1" src=""></a-box>
+          <a-box src="Images/HouseTexture.jpg"position="0 2.5 0" width="1" height="1" depth="0.1" src=""></a-box>
+        </a-entity>
+        <a-entity class="plank" position="-2 0 0">
+          <a-box src="Images/HouseTexture.jpg"position="0 0.5 0" width="1" height="1" depth="0.1" src=""></a-box>
+          <a-box src="Images/HouseTexture.jpg"position="0 1.5 0" width="1" height="1" depth="0.1" src=""></a-box>
+          <a-box src="Images/HouseTexture.jpg"position="0 2.5 0" width="1" height="1" depth="0.1" src=""></a-box>
+        </a-entity>
+      </a-entity>
+    <!-- roof -->
+     <a-entity>
+      <a-entity>
+        <a-plane position="-0.15 5 -2.5" material="side: double" color="black" rotation="90 0 0" height="6" width="1.9"></a-plane>
+        <a-plane position="2 3.5 -2.5" color="black" rotation="140 90 0"  material="side: double" width="6" height="4"></plane>
+      </a-entity>
+      <a-entity position="-0.35 0 -5"rotation="0 180 0">
+        <a-plane position="2 3.5 -2.5" color="black" rotation="140 90 0"  material="side: double" width="6" height="4"></plane>
+      </a-entity>
+        <a-plane src="Images/HouseTexture.jpg"position="-0.2 3.5 0" material="side: double" width="4"></a-plane>
+        <a-plane src="Images/HouseTexture.jpg"position="-0.2 4.5 0" material="side: double" width="3"></a-plane>
+         <a-plane src="Images/HouseTexture.jpg"position="-0.2 3.5 -5" material="side: double" width="4"></a-plane>
+         <a-plane src="Images/HouseTexture.jpg"position="-0.2 4.5 -5" material="side: double" width="3"></a-plane>
+     </a-entity> 
+     
+  </a-entity>    
       <a-plane position="0 0 0" rotation="-90 0 0" width="100" height="100" color="#7BC8A4"></a-plane>
       <a-sky color="#ECECEC"></a-sky>
       <a-camera position="0 1.4 5"></a-camera>
